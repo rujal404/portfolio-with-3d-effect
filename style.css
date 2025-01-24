@@ -18,3 +18,151 @@ main {
     font-family: Poppins;
 }
 
+aside {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-size: 1.1rem;
+    background-color: #212529;
+    backdrop-filter: blur(20px);
+}
+
+.Links {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+aside li {
+    list-style-type: none;
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+    color: white;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    transition-duration: 0.2s;
+}
+
+aside li:hover {
+    color: #80ed99;
+}
+
+aside li:after {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    height: 1px;
+    background: linear-gradient(to left, transparent, #ffffff24, transparent);
+    content: '';
+    bottom: 0px;
+}
+
+aside li i {
+    font-size: 1.3rem;
+}
+
+.activeLink {
+    color: #80ed99;
+}
+
+.mySwiper {
+    flex: 1;
+    height: 100%;
+}
+
+.home-slide {
+    color: white;
+    display: flex;
+    background-color: #343a40;
+}
+
+.HomeContent {
+    margin: auto 0px;
+    flex: 1;
+    height: auto;
+    padding: 100px;
+    user-select: none;
+}
+
+.SideImg {
+    width: 30%;
+    margin: auto 10px;
+    margin-right: 100px;
+    position: relative;
+}
+
+.SideImg img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.SideImg .top-rigth-corner, 
+.bottom-left-corner {
+    position: absolute;
+}
+
+.bottom-left-corner {
+    left: -50px;
+    bottom: -50px;
+    rotate: -90deg;
+}
+
+.top-rigth-corner {
+    right: -50px;
+    top: -50px;
+    rotate: 90deg;
+}
+
+.hr1 {
+    width: 150px;
+    height: 10px;
+    border: none;
+    background: #80ed99;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.hr2 {
+    width: 10px;
+    height: 120px;
+    border-bottom-left-radius: 3px;
+    background: #80ed99;
+    border: none;
+    border-bottom-right-radius: 3px;
+}
+
+.HomeContent h1 {
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.HomeContent h2 {
+    font-size: 2.3rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.HomeContent h1 .stylized-name {
+    font-weight: 700;
+    color: #80ed99;
+}
+
+.proffesions {
+    color: #85f69f;
+}
+
+.HomeContent .heroline {
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding-right: 50px;
+}
+
+.buttonGroup {
+    display: flex;
+    padding: 10px 0px;
+    margin-top: 10px;
+}
