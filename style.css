@@ -166,3 +166,93 @@ aside li i {
     padding: 10px 0px;
     margin-top: 10px;
 }
+
+.buttonGroup button ,.primary {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #1d8637;
+    color: white;
+    border-radius: 5px;
+}
+
+.slide-help {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    z-index: 100;
+    left: 0%;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+}
+
+.mySwiper {
+    width: 80vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #343a40;
+}
+
+.swiper-slide {
+    width: 100%;
+    background-color: #343a40;
+    height: 100%;
+}
+
+.about-us {
+    width: 100%;
+    height: 100%;
+    padding: 100px;
+    color: white;
+}
+
+.heading {
+    padding: 20px 10px;
+    font-size: 2.5rem;
+    color: #80ed99;
+}
+
+.about-us h3 {
+    padding: 10px;
+}
+
+.aboutme-details {
+    padding: 20px;
+    font-weight: 300;
+}
+
+.about-me-divison {
+    display: flex;
+}
+
+.about-me-table {
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.about-me-table li {
+    padding: 20px;
+    position: relative;
+}
+
+.about-me-table li::after {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    height: 1px;
+    background: linear-gradient(to left, transparent, #ffffff77, transparent);
+    content: '';
+    bottom: 0px;
+}
+
+.about-us {
+    overflow: auto;
+}
